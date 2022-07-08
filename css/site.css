@@ -1,0 +1,51 @@
+html,
+body {
+    position: relative;
+    color: #212121;
+    height: 100%;    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+    margin-top: 4rem;
+}
+
+.footer{
+    flex-shrink: 0;
+}
+
+.heroText {
+    font-family: modesto-open-shadow, sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    color: #ddd0c5;
+}
+
+.bgimage {
+    width: 100%;
+    background: url(/img/OTG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.minHeight {
+    min-height: 85vh;
+}
+
+.text-alt{
+    font-family: Poppins, sans-serif ;
+    color: #e8dbcf;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.bg-brand {
+    background-color: #6e8898;
+}
